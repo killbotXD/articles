@@ -1,0 +1,23 @@
+Understanding the PATH variable
+
+If you just installed git , python or some other software that you run on your terminal and are getting an error like command not found even tho your brain recalls you installing that software only 2 mins ago, well then let me tell you one essential thing that you probably forgot and what you should know if you are going to become a hardcore programmer….
+P.S. you should still learn it can come pretty handy
+
+Environment Variables
+
+To understand what environment variables are we need to understand what an environment is first…. which is very simple.
+Basically, your computer runs on an operating system and a processor and that operating system and the processor together(combined with some other hardware) run programs…. that is your "Computing Environment".
+Now just like any other C++, Java, JavaScript etc. code that you have written probably to print a Fibonacci series or to solve some serious Compi problem, you must have come across "variables". Well, Environment Variables are no different than these variables, they are dynamic values that define how processes run and how commands are executed. One such variable is the PATH Variable(Case sensitive folks).
+
+PATH Variable In General
+
+So we have understood what Environment Variables are, Amazing. Now the PATH Variable is one such variable which is just a list of directories(Folders) where executable files are stored. Simple? well if not let me explain in a more easy manner.
+Whenever you run a command on your favourite terminal/command prompt like ls or dir the way the computer, or rather the terminal, knows what to do or how to process the command is because of the PATH variable. Since ls or dir are just scripts(Programs that run on your terminal) that logs(prints) the directories in the terminal, the terminal just executes these scripts just like any other program.
+Whenever you run any software on your computer like photoshop, STEAM, Slack, Spotify. What do you do? probably click the shortcut on the desktop(Windows ) or go where the software is installed on your PC and then run the .exe file right? (Ps. the shortcut is just a link to where the actual .exe file is stored).
+
+So in order to run a program, you need to go exactly where the program is installed or use a shortcut on your desired place (so that you don't need to go to the installed folder every time you want to run that program). I hope you understand how bad and illogical the idea of "I want to run Photoshop from my NFS Most Wanted folder" sounds(P.s.you can still do it though). Its the same type of problem that you face when you encounter an error mentioned at the start of the article. You may have installed a piece of software or a program but, you are trying to run in from the incorrect location.
+
+This is where the PATH variable comes to your rescue. Just like you created a shortcut for your favourite applications on your desktop the PATH Variable is a list of folders where the executables of various programs are stored and whenever you try to run a program on your terminal, the terminal checks the PATH Variable if such a program/script exists if it does well you know what happens and what happens if not. That is why you are reading this article right?
+
+Anyways the bottom line here is whenever you install new software that you want to run on your terminal make sure that you have added it to the PATH Variable. Some of the software installations do provide such option to automatically add the executable file in your system, but you can always edit your PATH Variable to have custom scripts just at the tip of your fingers too.
+You can read more about how to edit and add more things to your PATH Variables on many awesome articles. Thanks!
